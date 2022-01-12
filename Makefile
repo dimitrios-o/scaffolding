@@ -14,7 +14,7 @@ format:
 	isort *.py
 
 git:
-#	git rm -r --cached .
+	git rm -r --cached .
 	git add .	
 	git commit -m "$m"
 	git push -u origin main
