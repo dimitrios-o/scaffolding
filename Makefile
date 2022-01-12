@@ -10,8 +10,8 @@ lint:
 	pylint --disable=R,C *.py
 
 format:
-	black */*.py
-	isort */*.py
+	black *.py
+	isort *.py
 
 git:
 #	git rm -r --cached .
